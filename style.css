@@ -1,0 +1,27 @@
+*{
+    margin: auto;
+    padding: 0;
+    background-color: #ccc;
+}
+
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    width: 300px;
+    height: 150px;
+    margin-top: 300px;
+    text-decoration: none;
+    font-size: 27px;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 2px rgba(0,0,0,0.75);
+}
+
+.botao:hover{
+    background-color: rgb(66, 66, 189);
+    transition-duration: 0.25s;
+    color: rgb(190, 197, 245);
+    box-shadow: 3px 3px 3px 2px rgba(0,0,0,0.75);
+}
